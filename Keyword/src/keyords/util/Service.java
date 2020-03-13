@@ -70,6 +70,14 @@ public class Service {
 
 	private static String replaceCode(int numberOfKeywords, String loc) throws IOException {
 
+		
+		        List<String> noOfKeysofcode = getKeys();
+		        if (numberOfKeywords>noOfKeysofcode.size()) {
+					numberOfKeywords= noOfKeysofcode.size();
+				} 
+		
+		
+		
 		String code = readFile(loc);
 		System.out.println("original code = {" + code + "}");
 		String newCode = code;

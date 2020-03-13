@@ -10,7 +10,7 @@ public class Generate {
 	
          
 		
-		Service.createNewFile(4,2,"K:\\propfiles\\code.java");
+		Service.createNewFile(1,100,"K:\\propfiles\\code.java");
 		
 		
 	}
