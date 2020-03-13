@@ -6,15 +6,11 @@ import keyords.util.Service;
 
 public class Generate {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 	
          
 		
-		try {
-			Service.replaceCode(2, "K:\\propfiles\\code.java",3);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+		Service.createNewFile(4,2,"K:\\propfiles\\code.java");
 		
 		
 	}
